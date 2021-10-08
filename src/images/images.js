@@ -8,7 +8,8 @@ import imgGithubLogo from './github-logo.png'
 import imgTimer from './timer.png'
 import firtsImg from './imagem1.png'
 import secondImg from './imagem2.png'
+import trybeBackground from './trybe_background.png'
 
-const images = {imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
+const images = { trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
 
 export default images;
