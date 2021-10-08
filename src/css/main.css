@@ -1,0 +1,30 @@
+.main-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+
+.information-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  height: 85%;
+  width: 60%;
+}
+
+.information-main-container h1 {
+  margin-left: 6vw;
+}
+
+.name {
+  color: #2FC18B;
+}
+
+.image-main-container {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 40%;
+}
