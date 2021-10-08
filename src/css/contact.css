@@ -51,9 +51,9 @@
 }
 
 .trybe {
-  background-image: url(https://s3.amazonaws.com/gupy5/production/companies/1673/career/2546/images/2020-12-07_13-18_logo.png);
-  background-position: cover;
-  background-size: 100%;
+  background-image: url(../images/trybe_background.png);
+  background-repeat: no-repeat;
+  background-position: 43% 5%;
   filter: grayscale(100%);
   transition: 1s;
 }
