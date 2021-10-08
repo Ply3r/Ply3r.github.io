@@ -19,12 +19,12 @@ const data = [
   {
     name: 'MoodStore',
     img: images.imgMoodStore,
-    link: 'https://ply3r.github.io/projetos/loja_de_roupa/index.html'
+    link: 'https://ply3r.github.io/portifolio_antigo/projetos/loja_de_roupa/index.html'
   },
   {
     name: 'Timer',
     img: images.imgTimer,
-    link: 'https://ply3r.github.io/projetos/timer/index.html'
+    link: 'https://ply3r.github.io/portifolio_antigo/projetos/timer/index.html'
   }
 ]
 
