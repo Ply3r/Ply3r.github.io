@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import images from "../images/images";
 import '../css/main.css';
 
 class Main extends Component {
@@ -53,7 +54,7 @@ class Main extends Component {
           <h1>and i'm a <span className="palavras" style={{color: colors[positionWord]}}>{ actualWord }</span></h1>
         </div>
         <div className="image-main-container">
-          <img src='https://ply3r.github.io/imagens/imagem1.png' alt="main-imagem"/>
+          <img src={images.firtsImg} alt="main-imagem"/>
         </div>
       </div>
     )

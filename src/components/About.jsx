@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import '../css/about.css'
+import images from "../images/images";
 
 class About extends Component {
   render() {
     return (
       <div className="main-container">
         <div className="image-main-container">
-          <img src="https://ply3r.github.io/imagens/imagem2.png" alt="" />
+          <img src={ images.secondImg } alt="" />
         </div>
         <div className="information-about-container">
           <div className="information">

@@ -11,4 +11,5 @@ body, #root {
   background-image: url(https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   color: rgba(255, 255, 255, 0.856);
   width: 100vw;
+  overflow: hidden;
 }

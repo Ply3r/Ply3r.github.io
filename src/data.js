@@ -19,7 +19,12 @@ const data = [
   {
     name: 'MoodStore',
     img: images.imgMoodStore,
-    link: 'https://ply3r.github.io/Projeto_Spotrybe/'
+    link: 'https://ply3r.github.io/projetos/loja_de_roupa/index.html'
+  },
+  {
+    name: 'Timer',
+    img: images.imgTimer,
+    link: 'https://ply3r.github.io/projetos/timer/index.html'
   }
 ]
 
