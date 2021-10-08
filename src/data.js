@@ -14,7 +14,7 @@ const data = [
   {
     name: 'Pokedex',
     img: images.imgPokedex,
-    link: 'https://ply3r.github.io/Projeto_Spotrybe/'
+    link: 'https://ply3r.github.io/my-pokedex/'
   },
   {
     name: 'MoodStore',
