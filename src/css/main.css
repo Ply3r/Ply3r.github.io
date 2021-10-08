@@ -8,7 +8,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 2.5em;
+  font-size: 2vmax;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
   font-weight: 700;
   height: 85%;
   width: 60%;
@@ -27,4 +28,23 @@
   place-items: center;
   height: 100%;
   width: 40%;
+}
+
+.image-main-container img {
+  width: 85%;
+}
+
+@keyframes caret {
+  0% {
+    border-color: transparent;
+  } 
+  50% {
+    border-color: white;
+  }
+}
+
+.palavras {
+  border-right: 5px solid white;
+  animation: caret 3s infinite ease;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 }

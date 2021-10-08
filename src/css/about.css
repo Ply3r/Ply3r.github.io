@@ -1,0 +1,25 @@
+.information-about-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  width: 70%;
+  margin-bottom: 10vh;
+}
+
+.information h1 {
+  font-size: 3vmax;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.information p {
+  font-weight: 700;
+  font-size: 1.2vmax;
+  text-align: justify;
+}
