@@ -53,7 +53,7 @@ class Project extends Component {
     const { name } = this.props;
     return (
       <>
-        <div className="pasta-projetos" onDoubleClick={this.openFolder}>
+        <div className="pasta-projetos" onClick={this.openFolder}>
           <FontAwesomeIcon icon={ icone } />
           <h2>{ name }</h2>
         </div>
