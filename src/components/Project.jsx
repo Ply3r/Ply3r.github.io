@@ -13,7 +13,7 @@ class Project extends Component {
   }
 
   showWindow = () => {
-    const { projetos } = this.props;
+    const { projetos, name } = this.props;
     const elementos = projetos.map(({ name, img, link }) => {
       return (
         <a href={link} rel="noreferrer" target="_blank" className="projeto">
@@ -26,6 +26,9 @@ class Project extends Component {
       <Draggable handle="#handle">
         <div className="pasta-aberta">
           <div id="handle" className="pasta-header">
+            <div className="folder-name">
+              <h3>{ name }</h3>
+            </div>
             <div className="icons">
               <FontAwesomeIcon icon={faWindowMinimize} />
               <FontAwesomeIcon icon={faWindowMaximize} />
