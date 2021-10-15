@@ -17,7 +17,7 @@ class Main extends Component {
   changeWord = () => {
     let index = 0;
     let contRemove = 0;
-    setInterval(() => {
+    this.changeWordInterval = setInterval(() => {
       const { words, positionWord } = this.state;
       const word = words[positionWord].split('');
       if (index >= word.length) {
@@ -43,6 +43,10 @@ class Main extends Component {
 
   componentDidMount() {
     this.changeWord();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.changeWordInterval)
   }
 
   render() {
