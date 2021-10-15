@@ -25,7 +25,12 @@ const data = [
     name: 'Timer',
     img: images.imgTimer,
     link: 'https://ply3r.github.io/portifolio_antigo/projetos/timer/index.html'
-  }
+  },
+  {
+    name: 'Yu-gi-oh',
+    img: images.yugioh,
+    link: 'https://ply3r.github.io/yu-gi-oh'
+  },
 ]
 
 export default data;

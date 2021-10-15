@@ -9,7 +9,8 @@ import imgTimer from './timer.png'
 import firtsImg from './imagem1.png'
 import secondImg from './imagem2.png'
 import trybeBackground from './trybe_background.png'
+import yugioh from './yu-gi-oh.png'
 
-const images = { trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
+const images = { yugioh, trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
 
 export default images;
