@@ -12,7 +12,7 @@ class About extends Component {
         <div className="information-about-container">
           <div className="information">
             <h1>About</h1>
-            <p>Meu nome é Leandro Henrique, sou estudante de Web Development na Trybe, sou muito esforçado tento sempre aprender coisas novas, sempre fazendo cursos para me aperfeiçoar, gosto muito de programação.</p>
+            <p>My name is Leandro Henrique, I'm a Web Development student at Trybe, I always try to learn new things, always taking courses to improve myself, I really like programming.</p>
           </div>
         </div>
       </div>
