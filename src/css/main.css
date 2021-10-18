@@ -2,6 +2,7 @@
   height: 90vh;
   width: 100vw;
   display: flex;
+  transition: 1s ease;
 }
 
 .information-main-container {
@@ -47,4 +48,18 @@
   border-right: 5px solid white;
   animation: caret 3s infinite ease;
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 420px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+
+  .image-main-container {
+    width: 100%;
+  }
+
+  .information-main-container {
+    width: 100%;
+  }
 }

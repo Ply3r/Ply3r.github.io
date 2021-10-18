@@ -47,14 +47,10 @@
 @keyframes aparecer {
   0% {
     left: 5%;
-    height: 40%;
-    width: 50%;
     opacity: 0;
   }
   100% {
     left: 15%;
-    height: 75vh;
-    width: 70vw;
     opacity: 1;
   }
 }
@@ -121,4 +117,35 @@
 
 .icons svg {
   cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  .pasta-projetos svg {
+    font-size: 8vmax;
+  }
+
+  .projects-container {
+    padding: 0;
+  }
+
+  .pasta-projetos h2 {
+    width: fit-content;
+  }
+
+  .pasta-aberta {
+    width: 90vw;
+  }
+
+  .pasta-header {
+    justify-content: space-between;
+
+  }
+
+  .icons {
+    width: 25%;
+  }
+
+  .folder-name {
+    width: 65%;
+  }
 }

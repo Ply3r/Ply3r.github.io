@@ -23,3 +23,17 @@
   font-size: 1.2vmax;
   text-align: justify;
 }
+
+@media screen and (max-width: 420px) {
+  .information-about-container {
+    width: 100%;
+  }
+
+  .information h1 {
+    font-size: 5vmax;
+  }
+
+  .information p {
+    font-size: 1.5vmax;
+  }
+}
