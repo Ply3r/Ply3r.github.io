@@ -31,6 +31,11 @@ const data = [
     img: images.yugioh,
     link: 'https://ply3r.github.io/yu-gi-oh'
   },
+  {
+    name: 'Trybe-Tunes',
+    img: images.trybeTunes,
+    link: 'https://ply3r.github.io/trybe-tunes'
+  },
 ]
 
 export default data;
