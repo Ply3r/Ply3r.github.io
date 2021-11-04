@@ -36,6 +36,16 @@ const data = [
     img: images.trybeTunes,
     link: 'https://ply3r.github.io/trybe-tunes'
   },
+  {
+    name: 'MoodStore2.0',
+    img: images.moodStore2,
+    link: 'https://ply3r.github.io/mood-store2.0/'
+  },
+  {
+    name: 'Timer2.0',
+    img: images.timer2,
+    link: 'https://ply3r.github.io/timer2.0/'
+  },
 ]
 
 export default data;
