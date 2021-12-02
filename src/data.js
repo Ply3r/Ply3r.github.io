@@ -71,6 +71,13 @@ const data = [
     type: 'front',
     favorite: true,
   },
+  {
+    name: 'Solar-System',
+    img: images.solarSystem,
+    link: 'https://ply3r.github.io/Solar-System/',
+    type: 'front',
+    favorite: true,
+  },
 ]
 
 export default data;
