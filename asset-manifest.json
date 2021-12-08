@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.67edebb0.chunk.css",
-    "main.js": "/static/js/main.05f99b60.chunk.js",
-    "main.js.map": "/static/js/main.05f99b60.chunk.js.map",
+    "main.js": "/static/js/main.5ebc9147.chunk.js",
+    "main.js.map": "/static/js/main.5ebc9147.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58fe7d23.js",
     "runtime-main.js.map": "/static/js/runtime-main.58fe7d23.js.map",
     "static/js/2.e59afa69.chunk.js": "/static/js/2.e59afa69.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/netflix-react.2cb160ed.png": "/static/media/netflix-react.2cb160ed.png",
     "static/media/solar-system.6051083f.png": "/static/media/solar-system.6051083f.png",
     "static/media/spotTrybe.1888d53e.png": "/static/media/spotTrybe.1888d53e.png",
+    "static/media/star-wars-3d.7073b18f.png": "/static/media/star-wars-3d.7073b18f.png",
     "static/media/timer.daed63c3.png": "/static/media/timer.daed63c3.png",
     "static/media/timer2.5e8f34c3.png": "/static/media/timer2.5e8f34c3.png",
     "static/media/trybe-tunes.5bbc70fa.png": "/static/media/trybe-tunes.5bbc70fa.png",
@@ -29,6 +30,6 @@
     "static/js/runtime-main.58fe7d23.js",
     "static/js/2.e59afa69.chunk.js",
     "static/css/main.67edebb0.chunk.css",
-    "static/js/main.05f99b60.chunk.js"
+    "static/js/main.5ebc9147.chunk.js"
   ]
 }
