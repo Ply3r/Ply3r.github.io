@@ -16,7 +16,9 @@ import timer2 from './timer2.png';
 import trWallet from './trybe-wallet.png'
 import solarSystem from './solar-system.png'
 import starWars from './star-wars-3d.png'
+import flappyBird from './flappy-bird.png'
+import snake from './snake.png'
 
-const images = { starWars, solarSystem, trWallet, timer2, moodStore2, trybeTunes, yugioh, trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
+const images = { snake, flappyBird, starWars, solarSystem, trWallet, timer2, moodStore2, trybeTunes, yugioh, trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
 
 export default images;
