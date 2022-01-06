@@ -86,6 +86,13 @@ const data = [
     favorite: true,
   },
   {
+    name: 'App de receitas',
+    img: images.recipeApp,
+    link: 'https://github.com/Ply3r/recipes-app',
+    type: 'front',
+    favorite: true,
+  },
+  {
     name: 'Flappy Bird',
     img: images.flappyBird,
     link: 'https://github.com/Ply3r/flappy-bird',

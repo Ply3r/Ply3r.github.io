@@ -18,7 +18,8 @@ import solarSystem from './solar-system.png'
 import starWars from './star-wars-3d.png'
 import flappyBird from './flappy-bird.png'
 import snake from './snake.png'
+import recipeApp from './recipe-app.png';
 
-const images = { snake, flappyBird, starWars, solarSystem, trWallet, timer2, moodStore2, trybeTunes, yugioh, trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
+const images = { recipeApp, snake, flappyBird, starWars, solarSystem, trWallet, timer2, moodStore2, trybeTunes, yugioh, trybeBackground, imgNetflix, imgSpotrybe, imgPokedex, imgMoodStore, imgTrybeLogo, imgLinkedinLogo, imgGithubLogo, imgTimer, firtsImg, secondImg}
 
 export default images;
