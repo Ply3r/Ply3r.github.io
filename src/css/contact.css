@@ -29,37 +29,3 @@
   border-radius: 30px;
 }
 
-.github {
-  background-position: cover;
-  background-image: url(https://images.pexels.com/photos/270373/pexels-photo-270373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.github:hover {
-  filter: grayscale(0%);
-}
-
-.linkedin {
-  background-image: url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.linkedin:hover {
-  filter: grayscale(0%);
-}
-
-.trybe {
-  background-image: url(../images/trybe_background.png);
-  background-repeat: no-repeat;
-  background-position: 43% 5%;
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.trybe:hover {
-  filter: grayscale(0%);
-}
-
-

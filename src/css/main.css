@@ -1,8 +1,16 @@
 .main-container {
   height: 90vh;
   width: 100vw;
+  margin-top: 5vh;
   display: flex;
   transition: 1s ease;
+}
+
+.hero-title {
+  margin-top: 5vh;
+  width: 100vw;
+  font-size: 5em;
+  text-align: center;
 }
 
 .information-main-container {

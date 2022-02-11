@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import '../css/contact.css'
 import images from "../images/images";
 
-class Contact extends Component {
-  render() {
-    return (
-      <div className="main-container">
+const Contact = () => {
+  return (
+    <>
+      <h1 className="hero-title">Contact</h1>
+      <div className="projects-container" style={ { 'flexWrap': "nowrap" } }>
         <div className="contact-container github">
           <a target="_blank" rel="noreferrer" href="https://github.com/Ply3r"><img src={images.imgGithubLogo} alt="git-hub" /></a>
         </div>
@@ -16,8 +17,8 @@ class Contact extends Component {
           <a target="_blank" rel="noreferrer" href="https://www.betrybe.com/"><img src={ images.imgTrybeLogo } alt="trybe" /></a>
         </div>
       </div>
-    );
-  }
+    </>
+  );
 }
 
 export default Contact;

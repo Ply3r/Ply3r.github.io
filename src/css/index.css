@@ -9,7 +9,12 @@
 
 body, #root {
   background-image: url(https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-attachment: fixed;
   color: rgba(255, 255, 255, 0.856);
   width: 100vw;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
 }

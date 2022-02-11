@@ -1,20 +1,24 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Draggable from "react-draggable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faFolderOpen, faTimesCircle, faWindowMinimize, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
 import data from "../data";
 
-class Project extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      icone: faFolder,
-      active: false,
-    }
+const Project = ({ type, favorite, name }) => {
+  const [icone, setIcone] = useState(faFolder);
+  const [active, setActive] = useState(false);
+
+  const openFolder = () => {
+    setIcone(faFolderOpen);
+    setActive(true);
   }
 
-  showWindow = () => {
-    const { type, favorite, name } = this.props;
+  const closeFolder = () => {
+    setIcone(faFolder);
+    setActive(false);
+  }
+
+  const showWindow = () => {
     let hold = data;
     if (type) hold = data.filter((project) => project.type === type);
     if (favorite) hold = data.filter((project) => project.favorite === true);
@@ -34,9 +38,9 @@ class Project extends Component {
               <h3>{ name }</h3>
             </div>
             <div className="icons">
-              <FontAwesomeIcon icon={faWindowMinimize} />
-              <FontAwesomeIcon icon={faWindowMaximize} />
-              <FontAwesomeIcon onClick={this.closeFolder} icon={faTimesCircle} />
+              <FontAwesomeIcon icon={ faWindowMinimize } />
+              <FontAwesomeIcon icon={ faWindowMaximize } />
+              <FontAwesomeIcon onClick={ closeFolder } icon={ faTimesCircle } />
             </div>
           </div>
           <div className="pasta-container">
@@ -47,27 +51,16 @@ class Project extends Component {
     );
   }
 
-  openFolder = () => {
-    this.setState({ icone: faFolderOpen, active: true })
-  }
 
-  closeFolder = () => {
-    this.setState({ icone: faFolder, active: false })
-  }
-
-  render() {
-    const { active , icone} = this.state;
-    const { name } = this.props;
-    return (
-      <>
-        <div className="pasta-projetos" onClick={this.openFolder}>
-          <FontAwesomeIcon icon={ icone } />
-          <h2>{ name }</h2>
-        </div>
-        { active ? this.showWindow() : '' }
-      </>
-    );
-  }
+  return (
+    <>
+      <div className="pasta-projetos" onClick={ openFolder }>
+        <FontAwesomeIcon icon={ icone } />
+        <h2>{ name }</h2>
+      </div>
+      { active && showWindow() }
+    </>
+  );
 }
 
 export default Project;
