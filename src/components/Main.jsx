@@ -11,10 +11,6 @@ const Main = () => {
     actualPosition: 0
   })
 
-  const type = (variables) => {
-
-  }
-
   const changeWord = () => {
     let { speed, actualWord, actualPosition } = textVariables
 
