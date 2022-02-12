@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import SkillCard from './SkillCard.jsx';
 import data from '../data.js';
 
