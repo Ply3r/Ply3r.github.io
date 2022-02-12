@@ -6,10 +6,10 @@ const SkillCard = ({ id, icons, changeOrder, name, img }) => {
   return (
     <div
       onClick={ () => changeOrder(icons, id) }
-      onMouseOver={ () => {
+      onMouseEnter={ () => {
         setIsActive(true)
       } }
-      onMouseOut={ () => {
+      onMouseLeave={ () => {
         setIsActive(false)
       }}
       key={ `${name} skillCard` }
