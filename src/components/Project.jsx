@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Draggable from "react-draggable";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faFolderOpen, faTimesCircle, faWindowMinimize, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
-import data from "../data";
+import data from "../data.js";
 
 const Project = ({ type, favorite, name }) => {
   const [icone, setIcone] = useState(faFolder);
@@ -19,9 +19,10 @@ const Project = ({ type, favorite, name }) => {
   }
 
   const showWindow = () => {
-    let hold = data;
-    if (type) hold = data.filter((project) => project.type === type);
-    if (favorite) hold = data.filter((project) => project.favorite === true);
+    const { projects } = data;
+    let hold = projects;
+    if (type) hold = projects.filter((project) => project.type === type);
+    if (favorite) hold = projects.filter((project) => project.favorite === true);
     const elementos = hold.map(({ name, img, link }) => {
       return (
         <a href={link} rel="noreferrer" target="_blank" className="projeto">
@@ -33,8 +34,8 @@ const Project = ({ type, favorite, name }) => {
     return (
       <Draggable handle="#handle">
         <div className="pasta-aberta">
-          <div id="handle" className="pasta-header">
-            <div className="folder-name">
+          <div className="pasta-header">
+            <div id="handle" className="folder-name">
               <h3>{ name }</h3>
             </div>
             <div className="icons">

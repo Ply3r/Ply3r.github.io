@@ -43,8 +43,30 @@
   justify-content: center;
 }
 
-.skills-icons > img {
-  height: 64px;
+@keyframes aparecer-desc-card {
+  0% {
+    opacity: 0;
+    padding: 0;
+  }
+  100% {
+    opacity: 1;
+    padding: 5px;
+  }
+}
+
+.description-card {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: -5px;
+  bottom: -20px;
+  animation: aparecer-desc-card .5s ease;
+  border: 2px solid white;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.skills-icons > div {
   margin: 15px;
   padding: 25px;
   box-sizing: content-box;
@@ -52,9 +74,14 @@
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 0.2);
   transition: .5s ease;
+  position: relative;
 }
 
-.skills-icons > img:hover {
+.skills-icons > div > img {
+  height: 64px;
+}
+
+.skills-icons > div:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 

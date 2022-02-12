@@ -71,7 +71,7 @@
 .folder-name {
   display: grid;
   place-items: center;
-  width: 80%;
+  width: 100%;
   height: 100%;
   user-select: none;
 }
@@ -123,7 +123,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .projects-container {
     padding: 0;
   }
@@ -133,7 +133,7 @@
   }
 
   .pasta-aberta {
-    width: 90vw;
+    width: 100vw;
   }
 
   .pasta-header {
