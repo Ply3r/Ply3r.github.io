@@ -6,7 +6,7 @@ const Main = () => {
   const [words] = useState(['Developer.', 'Designer.', 'Student.']);
   const [colors] = useState(['#4cc9f0', '#8338ec', '#2fc18b']);
   const [textVariables, setTextValiables] = useState({
-    speed: 300,
+    speed: 200,
     actualWord: '',
     actualPosition: 0
   })
@@ -19,13 +19,16 @@ const Main = () => {
 
     setInterval(() => {
       const word = words[actualPosition].split('');
-      speed = 300;
+      const MaxSpeed = 2000;
+      const MinSpeed = 200;
+
+      speed = MinSpeed;
 
       if (isTyping) {
         wordLength += 1;
 
         if (wordLength > word.length) {
-          speed = 2000;
+          speed = MaxSpeed;
           isTyping = false;
         };
       
@@ -33,7 +36,7 @@ const Main = () => {
         wordLength -= 1;
 
         if (wordLength <= 0) {
-          speed = 2000
+          speed = MaxSpeed
           isTyping = true;
           actualPosition = actualPosition < words.length - 1 ? actualPosition + 1 : 0
         }
