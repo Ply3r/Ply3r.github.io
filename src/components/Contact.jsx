@@ -13,9 +13,6 @@ const Contact = () => {
         <div className="contact-container linkedin">
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/leandro-henrique-soares-resende/"><img src={images.imgLinkedinLogo} alt="linkedin" /></a>
         </div>
-        <div className="contact-container trybe">
-          <a target="_blank" rel="noreferrer" href="https://www.betrybe.com/"><img src={ images.imgTrybeLogo } alt="trybe" /></a>
-        </div>
       </div>
     </>
   );

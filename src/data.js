@@ -69,7 +69,7 @@ const projects = [
     img: images.trWallet,
     link: 'https://github.com/Ply3r/trybe-wallet/',
     type: 'front',
-    favorite: true,
+    favorite: false,
   },
   {
     name: 'Solar System',
@@ -83,7 +83,7 @@ const projects = [
     img: images.starWars,
     link: 'https://github.com/Ply3r/star-wars-3d/',
     type: 'front',
-    favorite: true,
+    favorite: false,
   },
   {
     name: 'App de receitas',
@@ -97,14 +97,14 @@ const projects = [
     img: images.flappyBird,
     link: 'https://github.com/Ply3r/flappy-bird',
     type: 'back',
-    favorite: true,
+    favorite: false,
   },
   {
     name: 'Snake',
     img: images.snake,
     link: 'https://github.com/Ply3r/snake',
     type: 'back',
-    favorite: true,
+    favorite: false,
   },
 ]
 
